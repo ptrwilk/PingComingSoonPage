@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/PingComingSoonPage/static/css/main.e02cdac5.css",
+    "main.js": "/PingComingSoonPage/static/js/main.a975488d.js",
+    "static/js/787.2874767b.chunk.js": "/PingComingSoonPage/static/js/787.2874767b.chunk.js",
+    "static/media/illustration-dashboard.png": "/PingComingSoonPage/static/media/illustration-dashboard.f9aaf3db81c10cfaff45.png",
+    "static/media/logo.svg": "/PingComingSoonPage/static/media/logo.7e09371f05c7e00fddccee34a9deac87.svg",
+    "index.html": "/PingComingSoonPage/index.html",
+    "main.e02cdac5.css.map": "/PingComingSoonPage/static/css/main.e02cdac5.css.map",
+    "main.a975488d.js.map": "/PingComingSoonPage/static/js/main.a975488d.js.map",
+    "787.2874767b.chunk.js.map": "/PingComingSoonPage/static/js/787.2874767b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e02cdac5.css",
+    "static/js/main.a975488d.js"
+  ]
+}
