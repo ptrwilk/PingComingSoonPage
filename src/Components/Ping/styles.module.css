@@ -1,0 +1,114 @@
+@import url('../../colors.css');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    padding: 5rem 2rem 3rem 2rem;
+    font-size: 10px;
+}
+
+.container .img-logo{
+    width: 100px;
+}
+
+.container h1{
+    margin-top: 5rem;
+    font-size: 2.3em;
+    color: var(--gray);
+}
+
+.container h1 span{
+    font-weight: 700;
+    color: var(--verydarkblue);
+}
+
+.container .text{
+    margin-top: 1rem;
+    font-size: 1.4em;
+}
+
+.container .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.form .btn-notify{
+    padding: .7rem;
+    border-radius: 2rem;
+    font-weight: 600;
+    text-transform: none;
+    color: var(--white);
+    background: var(--blue);
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.2);
+}   
+
+.form .btn-notify:hover{
+    background: hsl(223, 87%, 67%);
+}
+
+.container .img-dashboard{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+.footer{
+    margin-top: auto;
+}
+
+.footer .icons{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.icons .btn-icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--paleblue);
+    color: var(--blue);
+}
+
+.icons .btn-icon:hover{
+    color: var(--white);
+    background: var(--blue);
+}
+
+.footer p{
+    margin-top: 2.5rem;
+    font-size: 1.2em;
+    color: var(--gray);
+}
+
+@media (min-width : 450px) {
+    .container{
+        font-size: 12px;
+    }
+}
+
+@media (min-width : 550px) {
+    .container{
+        font-size: 14px;
+    }
+
+    .container .form{
+        flex-direction: row;
+    }
+
+    .form .btn-notify{
+        align-self: flex-start;
+        width: 300px;
+    }
+}
+
+@media (min-width : 750px) {
+    .container{
+        font-size: 16px;
+    }
+}
